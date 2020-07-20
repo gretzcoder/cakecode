@@ -1,0 +1,474 @@
+@font-face {
+	font-family: lemon-milk;
+	src: url("../font/LemonMilk.otf");
+}
+
+body {
+	font-family: "open-sans", "century-gothic";
+	background-color: #f1f2f5 !important;
+	color: #151f2d;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	overflow-x: hidden;
+	z-index: -3;
+}
+
+h1 {
+	font-family: 'lemon-milk' !important;
+	color: #99CA3C !important;
+	padding-top: 30px;
+}
+
+/* landing page */
+#landing {
+	position: relative;
+	width: 1500px;
+	height: 100vh;
+	overflow: hidden;
+}
+
+#landing .landingbg {
+	position: absolute;
+	top: 200px;
+	right: 0;
+	z-index: -1;
+}
+
+.landingheader {
+	padding-top: 35px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.landingheader .landinghkanan {
+	align-items: center;
+}
+
+.landingbody {
+	margin-top: 150px;
+}
+
+.landingbody h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 45px;
+	font-weight: 300;
+	margin-top: 15px;
+}
+
+.landingbody a {
+	border-radius: 30px;
+	padding: 5px 20px;
+	padding-top: 3px;
+	font-size: 30px;
+	margin-top: 15px;
+	background-color: #99ca3c;
+	border-color: #99ca3c;
+}
+
+/* index */
+/* navigation */
+#navigation {
+	background-color: #99ca3c;
+	font-family: 'open sans', 'century-gothic';
+	padding: 2px;
+	box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.2);
+	font-weight: 600;
+}
+
+.nav-link:hover {
+	cursor: pointer;
+}
+
+@media screen and (max-width:540px) {
+	#navigation {
+		padding: 0 15px;
+	}
+
+	.carousel {
+		width: 90vw;
+		margin: 15px;
+		height: auto;
+		margin: auto;
+	}
+
+	#main h1 {
+		font-size: 6vw;
+		margin-top: -10px;
+	}
+}
+
+#home {
+	padding-top: 85px;
+	text-align: center;
+}
+
+h3 {
+	margin-top: 5px;
+	font-size: 30px;
+	font-family: calibri;
+	font-weight: bold;
+}
+
+.carousel-inner {
+	border-radius: 13px;
+	box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.5);
+}
+
+.secret {
+	padding-top: 100px;
+	text-align: center;
+}
+
+.content {
+	width: 50%;
+}
+
+.secret .rbulet {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	font-family: calibri;
+	margin-bottom: 20px;
+}
+
+.secret .rbulet img {
+	border-radius: 50%;
+	border: #99ca3c 5px solid;
+}
+
+.secret h4 {
+	margin-top: 5px;
+	font-family: 'calibri';
+	font-style: bold;
+}
+
+.product {
+	padding-top: 110px;
+	text-align: center;
+}
+
+.product .rbulet {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	font-family: calibri;
+	margin-bottom: 20px;
+}
+
+.product .rbulet img {
+	border-radius: 50%;
+	border: #99ca3c 5px solid;
+}
+
+.product h4 {
+	margin-top: 5px;
+	font-family: calibri;
+	font-style: bold;
+}
+
+.location {
+	padding-top: 50px;
+	margin-top: 40px;
+	text-align: center;
+	padding-bottom: 70px;
+}
+
+.location .rbulet {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	font-family: calibri;
+	margin-bottom: 20px;
+}
+
+.location .rbulet img {
+	border-radius: 50%;
+	border: #99ca3c 5px solid;
+}
+
+.location h4 {
+	margin-top: 5px;
+	font-family: calibri;
+	font-style: bold;
+}
+
+.about {
+	padding-top: 85px;
+	text-align: center;
+}
+
+.about .container {
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+	margin-bottom: 70px;
+}
+
+.abtkiri {
+	width: 60%;
+	margin-bottom: 70px;
+}
+
+.abtkanan {
+	width: 60%;
+	text-align: justify;
+	margin-left: 29px;
+}
+
+.abtkanan h4 {
+	font-size: 24px;
+	font-family: "calibri";
+	font-weight: bolder;
+}
+
+.abtkanan p {
+	font-family: "century-gothic";
+	width: 75%;
+}
+
+.alert {
+	font-family: "century-gothic";
+	font-size: 16px;
+	padding: 10px;
+	margin: 0;
+	line-height: 20px;
+}
+
+.spesial:hover {
+	cursor: pointer;
+
+}
+
+/* login page */
+.loginwrapper {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	width: 100vw;
+}
+
+.loginkiri {
+	background-image: url("../img/kue1.jpg");
+	background-size: 150%;
+	background-repeat: no-repeat;
+	background-position: -50px 0;
+	height: 100%;
+	width: 75%;
+
+}
+
+.loginkiri svg {
+	margin: 20px 30px;
+	color: white;
+}
+
+.loginkiri svg:hover {
+	margin: 20px 30px;
+	color: #99ca3c;
+	font-size: 2.5em;
+}
+
+.loginkanan {
+	background-color: #f1f2f5;
+	height: 100%;
+	width: 25%;
+	box-shadow: 15px 0px 5px black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.loginlogo {
+	display: flex;
+	justify-content: right;
+}
+
+.loginlogo img {
+	margin: 30px;
+}
+
+.loginform {
+	margin-left: 30px;
+	margin-top: -100px;
+	margin-right: 30px;
+	color: #99ca3c;
+}
+
+.loginform form {
+	margin-top: 25px;
+}
+
+.signupform {
+	margin-top: -50px;
+}
+
+
+.loginform input {
+	background-color: #f1f2f5 !important;
+	color: #99ca3c !important;
+	border-radius: 25px !important;
+	width: 100%;
+}
+
+.btn-primary {
+	background-color: #99ca3c !important;
+	border-color: #99ca3c !important;
+	border-radius: 25px !important;
+	width: 100%;
+}
+
+.card .btn-success,
+.input-group-append .btn-success {
+	background-color: #99ca3c !important;
+	border-color: #99ca3c !important;
+	width: 100%;
+}
+
+.card .btn-success:hover {
+	background-color: #75ad0c !important;
+	border-color: #75ad0c;
+}
+
+.product .container h4:hover,
+.product .container .fa-angle-double-right:hover {
+
+	color: #5f8812 !important;
+}
+
+.btn-primary:hover {
+	background-color: #75ad0c !important;
+	border-color: #75ad0c;
+}
+
+.btn-primary:focus {
+	background-color: #588602 !important;
+	border-color: #588602 !important;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(108, 216, 19, 0.6) !important;
+}
+
+.loginform h4 {
+	font-size: 16px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.loginform h4 a {
+	text-decoration: none;
+	color: #99ca3c;
+	font-weight: bold;
+}
+
+.loginform h4 a:hover {
+	text-decoration: none;
+	color: #75ad0c !important;
+	font-weight: bold;
+}
+
+.form-control:focus {
+	border-color: #99ca3c !important;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(108, 216, 19, 0.6) !important;
+	background-color: #f1f2f5;
+}
+
+.loginsosmed2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #99ca3c;
+}
+
+.loginsosmed {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+.nav-pills .active {
+	background-color: #99CA3C !important;
+}
+
+.nav-pills .flex-sm-fill:hover {
+	background-color: #99CA3C !important;
+}
+
+/* icons */
+svg {
+	margin-left: 15px;
+	color: #99ca3c;
+}
+
+svg:hover {
+	cursor: pointer;
+}
+
+.fa-facebook-f:hover {
+	color: #3b5998;
+}
+
+.fa-instagram:hover {
+	color: #CC3366;
+}
+
+.fa-twitter:hover {
+	color: #6699FF;
+}
+
+.fa-youtube:hover {
+	color: #c4302b;
+}
+
+.fa-whatsapp:hover {
+	color: #33CC66;
+}
+
+.hidden .fa-undo-alt {
+	animation: rotate .5s forwards;
+	color: #75ad0c;
+}
+
+.hiddenup .fa-undo-alt {
+	animation: rotateup .5s forwards;
+	color: #75ad0c;
+}
+
+.hiddenclick .fa-undo-alt {
+	animation: rotateend .5s forwards;
+	color: #75ad0c;
+}
+
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(-180deg);
+	}
+}
+
+@keyframes rotateup {
+	from {
+		transform: rotate(-180deg);
+	}
+
+	to {
+		transform: rotate(0deg);
+	}
+}
+
+@keyframes rotateend {
+	from {
+		transform: rotate(-180deg);
+	}
+
+	to {
+		transform: rotate(-360deg);
+	}
+}
